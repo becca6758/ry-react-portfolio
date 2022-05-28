@@ -1,11 +1,11 @@
 function Resume() {
     return (
-      <section class="container">
+      <section className="container">
         <h2 className="top-title">Resume</h2>
         <hr></hr>
   
         <div>
-          <div class="mt-5">
+          <div className="mt-5">
             <h2 className="top-title">Rebecca Yu</h2>
             <ul>
               <li>
@@ -13,7 +13,7 @@ function Resume() {
               </li>
             </ul>
   
-            <p class="mt-5">
+            <p className="mt-5">
               <a href="http://linkedin.com/in/rebecca-yu-798249117">
                 <img
                   src="https://img.icons8.com/fluent/48/000000/linkedin.png"
@@ -24,7 +24,7 @@ function Resume() {
   
             <a
               href="https://docs.google.com/document/d/1TDuBLWY-hg8ZwGQTsiaX20B4kireQoIS4WfR9_JacJ8/edit?usp=sharing"
-              class="link"
+              alt="link"
             >
               Download Resume
             </a>
