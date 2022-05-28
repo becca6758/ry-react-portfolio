@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-https://beccayu-react-portfolio.herokuapp.com/
+https://beccay-react-portfolio-app.herokuapp.com/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
