@@ -1,5 +1,10 @@
-import React, { Component } from "react";
-import { Route, Routes, HashRouter } from "react-router-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from 'react-router-dom';
 import Navigation from "./Navigation";
 import About from "./About";
 import Portfolio from "./Portfolio";
@@ -8,27 +13,25 @@ import Resume from "./Resume";
 
 
 
-class Header extends Component {
-  render() {
+function Header() {
     return (
-      <HashRouter>
+      <Router>
         <header>
           <Navigation />
         </header>
 
         <div className="content">
           <Routes>
-            <Route exact path="/" render={About} />
-            <Route path="/about" component={About} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/contact" component={Contact}/>
-            <Route path="/resume" component={Resume}/>
+            <Route path="/" element= {<About/>} />
+            <Route path="/about" element={<About/>} />
+            <Route path="/portfolio" element={<Portfolio/>} />
+            <Route path="/contact" element={<Contact/>}/>
+            <Route path="/resume" element={<Resume/>}/>
           </Routes>
         </div>
-      </HashRouter>
+      </Router>
     );
-  }
-} 
+  } 
 /* const Header = ReactDOM.createRoot(
   document.getElementById("root")
 );
@@ -47,7 +50,5 @@ Header.render(
     </Routes>
   </BrowserRouter>
 ); */
-
-
 
 export default Header;
