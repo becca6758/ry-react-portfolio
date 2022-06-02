@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Routes,
   Route
 } from 'react-router-dom';
@@ -14,7 +14,7 @@ import Resume from "./Resume";
 
 function Header() {
     return (
-      <Router>
+      <BrowserRouter>
         <header>
           <Navigation />
         </header>
@@ -28,7 +28,7 @@ function Header() {
             <Route path="/resume" element={<Resume/>}/>
           </Routes>
         </div>
-      </Router>
+      </BrowserRouter>
     );
   } 
 /* const Header = ReactDOM.createRoot(
