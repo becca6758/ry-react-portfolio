@@ -19,7 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "web": "node --optimize_for_size --max_old_space_size=460 src/index.js",
+    "web": "node --optimize_for_size --max_old_space_size=920 server.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
