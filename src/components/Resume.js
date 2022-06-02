@@ -11,6 +11,9 @@ function Resume() {
               <li>
                 Full-Stack Web Development
               </li>
+              <li>
+                Email: rebeccay8914@gmail.com
+              </li>
             </ul>
   
             <p className="mt-5">
@@ -23,7 +26,7 @@ function Resume() {
             </p>
   
             <a
-              href="https://docs.google.com/document/d/1TDuBLWY-hg8ZwGQTsiaX20B4kireQoIS4WfR9_JacJ8/edit?usp=sharing"
+              href="https://docs.google.com/document/d/12EvAz6lQt_FU6zyOnT_GM9n2Hrj4X3qyB0cKDEhfE5g/edit?usp=sharing"
               alt="link"
             >
               Download Resume
