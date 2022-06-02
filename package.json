@@ -20,7 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "web": "node --optimize_for_size --max_old_space_size=920 server.js",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "stack": "heroku-20"
   },
   "eslintConfig": {
     "extends": [
