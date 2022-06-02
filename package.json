@@ -19,7 +19,7 @@
     "start": "react-scripts start" ,
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "web": "node --optimize_for_size --max-old-space-size=8192 index.js",
+    "web": "node --optimize_for_size --max-old-space-size=16384 index.js",
     "eject": "react-scripts eject",
     "stack": "heroku-20"
   },
