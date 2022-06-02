@@ -16,10 +16,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start" ,
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "web": "node --optimize_for_size --max-old-space-size=8192 server.js",
+    "web": "node --inspect=8080 index.js",
     "eject": "react-scripts eject",
     "stack": "heroku-20"
   },

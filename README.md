@@ -2,6 +2,9 @@
 
 ## Description
 
+"start": "react-scripts start"     "web": "node --optimize_for_size --max-old-space-size=8192 server.js",
+
+
 This is my online portfolio that was created via react. This was created to showcase my skills and works that I have accomplished and learned.
 
 ## Table of Contents (Optional)
