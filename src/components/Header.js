@@ -31,23 +31,5 @@ function Header() {
       </BrowserRouter>
     );
   } 
-/* const Header = ReactDOM.createRoot(
-  document.getElementById("root")
-);
-
-Header.render(
-  <BrowserRouter>
-      <header>
-        <Navigation />
-      </header>
-    <Routes>
-      <Route exact path="/" element={<About />} />
-            <Route path="/About" element={<About />} />
-            <Route path="/Portfolio" element={<Portfolio/>} />
-            <Route path="/Contact" element={<Contact />}/>
-            <Route path="/resume" element={<Resume />}/>
-    </Routes>
-  </BrowserRouter>
-); */
 
 export default Header;
