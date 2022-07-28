@@ -275,7 +275,7 @@ textarea {
   background-color: var(--white);
   border-radius: 5px;
   height: 400px;
-  margin: 2rem;
+  margin: 4rem;
   position: relative;
   width: 400px;
   box-shadow: 0 2px 2px var(--cultured), 0 6px 12px var(--cultured);
@@ -334,6 +334,7 @@ textarea {
   display: flex; 
   align-items: center; 
   justify-content: center; 
+  margin-top: 5px;
 } 
 
 .icon {
