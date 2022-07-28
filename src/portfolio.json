@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "Quiz hub",
+        "topics": "Application for quiz enthusiasts to create and take quizzes",
         "image": "./images/quizhub.png",
         "github": "https://github.com/becca6758/quiz-hub/blob/57fbfdbe2403d6df66e03ea3a343421ea39bd5d3/README.md",
         "deploy": "https://quiz-hub-2022.herokuapp.com/"
@@ -9,6 +10,7 @@
     {
         "id": 2,
         "name": "Note Taker",
+        "topics": "Application for users to create, edit, and save notes",
         "image": "./images/note-taker.png",
         "github": "https://github.com/becca6758/note-taker",
         "deploy": "https://agile-lowlands-12052.herokuapp.com/"
@@ -16,6 +18,7 @@
     {
         "id": 3,
         "name": "Day Planner",
+        "topics": "Application for users to create schedule for their work day",
         "image": "./images/day-planner.png",
         "github": "https://github.com/becca6758/day-planner",
         "deploy": " https://becca6758.github.io/daily-planner/"
@@ -23,6 +26,7 @@
     {
         "id": 4,
         "name": "Weather Dashboard",
+        "topics": "Application for users to check the weather in the searched area",
         "image": "./images/weather-dashboard.png",
         "github": "https://github.com/becca6758/weather-planner",
         "deploy": "https://becca6758.github.io/weather-planner/"
@@ -30,6 +34,7 @@
     {
         "id": 5,
         "name": "Text Editor",
+        "topics": "Application for users to create notes or code snippets without internet connection",
         "image": "./images/text-editor.png",
         "github": "https://github.com/becca6758/pwa-text-editor",
         "deploy": "https://wk19-pwa-text-editor.herokuapp.com/"
@@ -37,6 +42,7 @@
     {
         "id": 6,
         "name": "Code Quiz",
+        "topics":"Application for users to test their knowledge on coding",
         "image": "./images/code-quiz.png",
         "github": "https://github.com/becca6758/CodeQuiz",
         "deploy": "https://becca6758.github.io/CodeQuiz/"

@@ -26,7 +26,7 @@ function Resume() {
             </p>
   
             <a
-              href="https://docs.google.com/document/d/12EvAz6lQt_FU6zyOnT_GM9n2Hrj4X3qyB0cKDEhfE5g/edit?usp=sharing"
+              href="https://drive.google.com/file/d/1umVo-KlkAKVpnlJMS6f-RbPGTicqZl8z/view?usp=sharing"
               alt="link"
             >
               Download Resume
